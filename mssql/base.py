@@ -670,4 +670,5 @@ class CursorWrapper(object):
         return getattr(self.cursor, attr)
 
     def __iter__(self):
+        # Test
         return iter(self.cursor)
